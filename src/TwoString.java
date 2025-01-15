@@ -14,6 +14,7 @@ public class TwoString {
 
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         StringBuilder sb1 = new StringBuilder();
+
         for (String word : word1) {
             sb1.append(word);
         }
