@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Task8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Введите размер массива:");
         int size = sc.nextInt();
         int[] array = new int[size];

@@ -16,6 +16,7 @@ public class Palindrom {
     public static void main(String[] args) {
         Palindrom palindrom = new Palindrom();
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Введите число: ");
         int x = sc.nextInt();
         System.out.println(palindrom.isPalindrome(x));

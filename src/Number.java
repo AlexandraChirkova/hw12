@@ -4,6 +4,7 @@ public class Number {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Number number = new Number();
+
         System.out.println("введите число: ");
         int x = scanner.nextInt();
         System.out.println(number.numberOfSteps(x));

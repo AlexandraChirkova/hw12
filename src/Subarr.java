@@ -27,7 +27,6 @@ public class Subarr {
                 totalSum += subarraySum;
             }
         }
-
         return totalSum;
     }
 }
